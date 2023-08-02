@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "name": "CMD",
+    "sort": "학회",
+    "logo": "cmd.png",
+    "department": "com-edu",
+    "leader": "전은지",
+    "Rperiod": "매학기",
+    "number": "0",
+    "way": "자기소개서",
+    "Aperiod": "한 학기",
+    "tag": "#스터디 #웹개발 #인공지능 #앱개발"
+  },
+  {
+    "id": 2,
+    "name": "COFA",
+    "sort": "소모임",
+    "department": "com-edu",
+    "leader": "김xx",
+    "Rperiod": "매학기",
+    "number": "0",
+    "way": "자기소개서",
+    "Aperiod": "1년",
+    "tag": "#여행"
+  },
+  {
+    "id": 3,
+    "name": "EGG",
+    "sort": "소모임",
+    "logo": "egg.png",
+    "department": "com-edu",
+    "leader": "이xx",
+    "Rperiod": "매학기",
+    "number": "0",
+    "way": "자기소개서",
+    "Aperiod": "1년",
+    "tag": "#스터디 #게임개발"
+  },
+  {
+    "id": 4,
+    "name": "악성코드",
+    "sort": "소모임",
+    "department": "com-edu",
+    "leader": "유xx",
+    "Rperiod": "매학기",
+    "number": "00",
+    "way": "자기소개서",
+    "Aperiod": "1년",
+    "tag": "#밴드 #보컬 #베이스 #드럼 #기타"
+  },
+  {
+    "id": 5,
+    "name": "Deep Running",
+    "sort": "소모임",
+    "department": "com-edu",
+    "leader": "박xx",
+    "Rperiod": "매학기",
+    "number": "00",
+    "way": "미정",
+    "Aperiod": "1년",
+    "tag": "#운동 #건강"
+  },
+  {
+    "id": 6,
+    "name": "음악교육과",
+    "sort": "소모임",
+    "department": "edu",
+    "leader": "XXX",
+    "Rperiod": "매학기",
+    "number": "00",
+    "way": "미정",
+    "Aperiod": "1년",
+    "tag": "#밴드 #밴드동아리"
+  },
+  {
+    "id": 7,
+    "name": "프라임",
+    "sort": "소모임",
+    "department": "math-edu",
+    "leader": "XXX",
+    "Rperiod": "매학기",
+    "number": "00",
+    "way": "미정",
+    "Aperiod": "1년",
+    "tag": "#밴드 #밴드동아리"
+  },
+  {
+    "id": 8,
+    "name": "서예부",
+    "sort": "학회",
+    "department": "han-edu",
+    "leader": "XXX",
+    "Rperiod": "매학기",
+    "number": "00",
+    "way": "미정",
+    "Aperiod": "1년",
+    "tag": "#서예 #전통 #행사 #학회"
+  }
+]

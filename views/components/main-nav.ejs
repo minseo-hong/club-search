@@ -1,0 +1,16 @@
+<nav class="main-nav">
+  <div class="main-nav__logo">
+    <a href="/">EDU:CLUB</a>
+  </div>
+  <ul class="main-nav__departments">
+    <li class="main-nav__department<% if (navActive === 'home')  { %> active<% } %>"><a href="/">홈</a></li>
+    <li class="main-nav__department<% if (navActive === 'edu')  { %> active<% } %>"><a href="/clubs/edu">교육학과</a></li>
+    <li class="main-nav__department<% if (navActive === 'math-edu')  { %> active<% } %>"><a href="/clubs/math-edu">수학교육과</a></li>
+    <li class="main-nav__department<% if (navActive === 'com-edu')  { %> active<% } %>"><a href="/clubs/com-edu">컴퓨터교육과</a></li>
+    <li class="main-nav__department<% if (navActive === 'han-edu')  { %> active<% } %>"><a href="/clubs/han-edu">한문교육과</a></li>
+  </ul>
+  <ul class="main-nav__auth">
+    <li class="main-nav__login"><a href="#">로그인</a></li>
+    <li class="main-nav__signup"><a href="#">회원가입</a></li>
+  </ul>
+</nav>

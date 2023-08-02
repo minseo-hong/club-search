@@ -1,0 +1,28 @@
+<%- include('../includes/top.ejs') %>
+  <main>
+    <section class="club-section">
+      <div class="clubs">
+        <% for (club of clubs) { %>
+          <a href="/club/<%= club.id %>" class="club">
+            <div class="club__logo">
+              <% if (club.logo) { %>
+                <img src="/images/<%= club.logo %>" alt="동아리 <%= club.name %> 로고" class="club__logo-img">
+              <% } else { %>
+                <img src="/images/default-logo.jpg" alt="동아리 <%= club.name %> 로고" class="club__logo-img">
+              <% } %>
+            </div>
+            <h1 class="club__name">
+              <%= club.name %>
+            </h1>
+          </a>
+        <% } %>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <ul class="footer__copyright">
+      <li class="footer__copyright-text"><i class="bi bi-c-circle"></i>CMD.All rights reserved.</li>
+      <li class="footer__copyright-text">SKKU COMEDU</li>
+    </ul>
+  </footer>
+  <%- include('../includes/bottom.ejs') %>

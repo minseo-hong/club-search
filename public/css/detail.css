@@ -1,0 +1,96 @@
+.header {
+  height: 30rem;
+}
+
+.main {
+  padding: 5rem 8%;
+}
+
+.club {
+  display: flex;
+  justify-content: space-between;
+}
+
+.club__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 2rem;
+  border: 1px solid rgb(184, 184, 184);
+  border-radius: 1rem;
+}
+
+.club__logo-img {
+  width: 100%;
+}
+
+.club__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+  padding: 2.5rem 0 5rem 0;
+}
+
+.club__name {
+  margin: 0;
+  margin-top: 0.5rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.club__sort {
+  font-weight: 400;
+}
+
+.club__leader {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.club__tags {
+  font-weight: 400;
+}
+
+#club-recruit {
+  margin: 2.5rem 0;
+}
+
+#club-recruit ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recruit {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recruit-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: #DFE6CB;
+  padding: 1rem 2rem;
+  border-radius: 0.75rem;
+  width: 22.5%;
+}
+
+.recruit-info__icon {
+  font-size: 3rem;
+}
+
+.recruit-info__title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.recruit-info__description {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 0.5rem;
+}

@@ -1,0 +1,17 @@
+.intro {
+  display: flex;
+  justify-content: center;
+  padding-top: 6rem;
+  padding-bottom: 15rem;
+}
+
+.intro__text {
+  margin: 0;
+  font-size: 2.5rem;
+  line-height: 200%;
+}
+
+.intro__text .green-bold {
+  color: #389583;
+  font-weight: 500;
+}

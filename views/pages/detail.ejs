@@ -1,0 +1,82 @@
+<%- include('../includes/top.ejs') %>
+  <main class="main">
+    <section id="club-overview">
+      <div class="club">
+        <div class="club__logo">
+          <% if (club.logo) { %>
+            <img src="/images/<%= club.logo %>" alt="동아리 <%= club.name %> 로고" class="club__logo-img">
+          <% } else { %>
+            <img src="/images/default-logo.jpg" alt="동아리 <%= club.name %> 로고" class="club__logo-img">
+          <% } %>
+        </div>
+        <div class="club__info">
+          <div>
+            <small class="club__sort"><%= club.sort %></small>
+            <h1 class="club__name">
+              <%= club.name %>
+            </h1>
+          </div>
+          <h2 class="club__leader">대표자 : <%= club.leader %>
+          </h2>
+          <p class="club__tags">
+            <%= club.tag %>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="club-recruit">
+      <ul class="recruit">
+        <li class="recruit-info">
+          <div class="recruit-info__icon">
+            <i class="bi bi-calendar-date"></i>
+          </div>
+          <div class="recruit-info__content">
+            <h2 class="recruit-info__title">모집시기</h2>
+            <p class="recruit-info__description">
+              <%= club.Rperiod %>
+            </p>
+          </div>
+        </li>
+        <li class="recruit-info">
+          <div class="recruit-info__icon">
+            <i class="bi bi-people"></i>
+          </div>
+          <div class="recruit-info__content">
+            <h2 class="recruit-info__title">모집인원</h2>
+            <p class="recruit-info__description">
+              <%= club.number %>명
+            </p>
+          </div>
+        </li>
+        <li class="recruit-info">
+          <div class="recruit-info__icon">
+            <i class="bi bi-pencil"></i>
+          </div>
+          <div class="recruit-info__content">
+            <h2 class="recruit-info__title">모집방식</h2>
+            <p class="recruit-info__description">
+              <%= club.way %>
+            </p>
+          </div>
+        </li>
+        <li class="recruit-info">
+          <div class="recruit-info__icon">
+            <i class="bi bi-alarm"></i>
+          </div>
+          <div class="recruit-info__content">
+            <h2 class="recruit-info__title">활동기간</h2>
+            <p class="recruit-info__description">
+              <%= club.Aperiod %>
+            </p>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer class="footer">
+    <ul class="footer__copyright">
+      <li class="footer__copyright-text"><i class="bi bi-c-circle"></i>CMD.All rights reserved.</li>
+      <li class="footer__copyright-text">SKKU COMEDU</li>
+    </ul>
+  </footer>
+  <%- include('../includes/bottom.ejs') %>

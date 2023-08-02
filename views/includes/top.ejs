@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>동아리 검색 사이트</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/css/font.css">
+  <link rel="stylesheet" href="/css/shared.css">
+  <% if (pageName === "home") { %>
+    <link rel="stylesheet" href="/css/main.css">
+  <% } else if (pageName === "com-edu-list" || pageName === "edu-list" || 
+  pageName === "han-edu-list" || pageName === "math-edu-list") { %>
+    <link rel="stylesheet" href="/css/com-edu.css">
+  <% } else if (pageName === "detail") { %>
+    <link rel="stylesheet" href="/css/detail.css">
+  <% } %>
+</head>
+
+<body>
+  <header class="header">
+    <%- include('../components/main-nav.ejs') %>
+    <div class="header-content-center-fix"></div>
+    <section class="header-content">
+      <h1 class="header-content__title">
+        <% if (navActive === 'home') { %>
+          나에게 딱 맞는<br>동아리를 찾아보세요!
+        <% } else if (navActive === 'edu') { %>
+          교육학과
+        <% } else if (navActive === 'math-edu') { %>
+          수학교육과
+        <% } else if (navActive === 'com-edu') { %>
+          컴퓨터교육과
+        <% } else if (navActive === 'han-edu') { %>
+          한문교육과
+        <% } %>
+      </h1>
+    </section>
+    <div class="header-content-center-fix"></div>
+  </header>
